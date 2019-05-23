@@ -16,7 +16,7 @@ Dependancies
     composer install
 Magento base setup
 
-    magento setup:install --base-url=http://localhost:82/ \
+    bin/magento setup:install --base-url=http://localhost:82/ \
 	     --db-host=mysql --db-name=magento \
 	     --db-user=root --db-password=passwd \
 	     --admin-firstname=Magento --admin-lastname=User --admin-email=user@example.com \
